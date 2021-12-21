@@ -18,7 +18,7 @@ class Client(multiprocessing.Process):
 
         r=random.randint(0, 1)
         if(r==0):
-            value = b'Fixing'
+            value = b'Commit'
         else:
             value = b'Abort'
 
@@ -54,11 +54,11 @@ class Watcher():
             count_f = 0
             count_a = 0
             for client in clients:
-                count_f += int(self.watcher.get(f'{self.path}/{client}')[0] == b'Fixing')
+                count_f += int(self.watcher.get(f'{self.path}/{client}')[0] == b'Commit')
                 count_a += int(self.watcher.get(f'{self.path}/{client}')[0] == b'Abort')
 
             if (count_f > count_a):
-                target = b'Fixing'
+                target = b'Commit'
             else:
                 target = b'Abort'
 
@@ -70,7 +70,7 @@ class Watcher():
             if len(clients) < self.num_client :
                 print('Высказались следующие клиенты', clients)
             elif len(clients) == self.num_client:
-                print('Проверяем их решения')
+                print('Определяем окончательное решение')
                 check_clients()
 
         for i in range(1,self.num_client+1):
