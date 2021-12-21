@@ -17,6 +17,10 @@
 
 Команды ls, get, set
 
+![](image/ls.png)
+
+![](image/ls2.png)
+
 ![](image/getset.png)
 
 Создаём два нумерованных узла, аварийно отключаем одного из клиентов
@@ -42,6 +46,17 @@
 ![](image/delete2.png)
 
 Работаем с watch-триггером
+
+![](image/2.1.png)
+
+#### Мониторинг ZooKeeper
+
+![](image/m1.png)
+
+![](image/m2.png)
+
+
+
 
 
 
