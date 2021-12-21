@@ -9,7 +9,7 @@
 
 Команда help
 
-![](help.JPG)
+![](task1/image/help.JPG)
 
 Команды ls, get, set
 
