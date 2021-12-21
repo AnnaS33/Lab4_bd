@@ -5,7 +5,7 @@
 Запустила сервер
 Сделать картинку
 
-![](image/server.png)
+![](image/Server.png)
 
 Запустила интерактивную сессию ZooKeeper CLI
 
