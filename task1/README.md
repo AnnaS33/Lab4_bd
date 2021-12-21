@@ -8,7 +8,7 @@
 
 Запустила интерактивную сессию ZooKeeper CLI
 
-![](image/CLI.png)
+![](image/1.png)
 
 Команда help
 
